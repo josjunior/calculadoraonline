@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Calculadora Online</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
+        <main>
+            <div class="calculator-box">
+                <div class="output">
+                  <div data-previous-operand class="previous-operand"></div>
+                  <div data-current-operand class="current-operand"></div>
+                </div>
+                <button id="ac" data-all-clear class="span-two">C</button>
+                <button id="del" data-delete>DEL</button>
+                <button data-operation>&divide;</button>
+                <button id="number-1" data-number class="number">1</button>
+                <button id="number-2" data-number class="number">2</button>
+                <button id="number-3" data-number class="number">3</button>
+                <button data-operation>&times;</button>
+                <button id="number-4" data-number class="number">4</button>
+                <button id="number-5" data-number class="number">5</button>
+                <button id="number-6" data-number class="number">6</button>
+                <button data-operation>&#43;</button>
+                <button id="number-7" data-number class="number">7</button>
+                <button id="number-8" data-number class="number">8</button>
+                <button id="number-9" data-number class="number">9</button>
+                <button data-operation>&minus;</button>
+                <button id="point" class="span-two" data-number>.</button>
+                <button id="number-0" data-number>0</button>
+                <button id="result" data-equals>&#61;</button>
+              </div>
+        </main>
+        <script src="scripts/script.js"></script>
+        <noscript>Seu navegador não suporta JavaScript ou ele está desativado.</noscript>
+    </body>
+</html>
